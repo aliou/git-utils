@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Usage: git exclude PATTERN
+# Locally exclude pattern from git index.
+# v1.0.1
+
+mkdir -p .git/info
+for pattern in "$@"
+do
+    echo "$pattern" >> .git/info/exclude
+done
