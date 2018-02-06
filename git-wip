@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: git wip [-m MESSAGE] [FILES]
 # Generates a git commit with the given message, prefixed by "[WIP]"
-# v1.0.1
+# v1.1.0
 
 set -e
 
