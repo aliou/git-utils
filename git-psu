@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Pushes the current branch and sets the given remote as upstream.
+# Usage:
+#  git psu [REMOTE]
+
+REMOTE=origin
+
+if (( $# > 0 )); then
+  REMOTE=${1##*=}
+fi
+
+git push -u "$REMOTE" "$(git rev-parse --abbrev-ref HEAD)"
