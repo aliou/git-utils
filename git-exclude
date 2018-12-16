@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: git exclude PATTERN
 # Locally exclude pattern from git index.
-# v1.3.0
+# v1.4.0
 
 mkdir -p .git/info
 for pattern in "$@"

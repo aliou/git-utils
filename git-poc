@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: git poc [-m MESSAGE] [FILES]
 # Generates a git commit with the given message, prefixed by "[POC]"
-# v1.3.0
+# v1.4.0
 
 set -e
 

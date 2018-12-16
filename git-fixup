@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: git fixup [BRANCH]
 # Allows the selection of a commit to be used with `rebase --autosquash`.
-# v1.3.0
+# v1.4.0
 
 # TODO: completion for branches.
 
