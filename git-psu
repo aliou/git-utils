@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Usage: git psu [REMOTE]
 # Pushes the current branch and sets the given remote as upstream.
-# v1.4.0
+# v1.5.0
 
 REMOTE=origin
 
