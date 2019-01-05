@@ -1,0 +1,6 @@
+#!/usr/bin/env bas
+# Usage: git rm-untracked
+# Delete untracked files.
+# v1.4.0
+
+git ls-files --others --exclude-standard | xargs rm -rf
